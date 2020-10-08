@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.params=names\ classes
+comment0.target=Roster(java.util.ArrayList,\ java.lang.String[])
+comment1.params=name\ gradClass
+comment1.target=java.lang.String\ addMathlete(java.lang.String,\ java.lang.String)
+comment1.text=\n\ \ \ \ \ \ Receives\ the\ name\ and\ graduating\ year\ from\ the\ "GUI".\n\ \ \ \ \ \ Checks\ the\ instance\ array\ of\ Mathlete\ objects\ to\ see\ if\ the\ name\n\ \ \ \ \ \ is\ already\ stored.\ If\ not,\ then\ it\n\ \ \ \ \ \ creates\ a\ new\ object\ of\ type\ Mathlete\ using\ the\ input\ parameters\n\ \ \ \ \ \ and\ stores\ that\ object\ in\ the\ instance\ ArrayList\ of\ Mathletes.\n\ \ \ \ \ \ Returns\ a\ String\ to\ the\ "GUI"\ which\ displays\ the\ current\ roster\ of\ \n\ \ \ \ \ \ Mathletes.\n
+comment2.params=name
+comment2.target=java.lang.String\ removeMathlete(java.lang.String)
+comment2.text=\n\ \ \ \ \ \ Receives\ the\ name\ from\ the\ "GUI".\n\ \ \ \ \ \ Checks\ the\ instance\ array\ of\ Mathlete\ objects\ to\ see\ if\ the\ name\n\ \ \ \ \ \ is\ stored.\ If\ it\ is,\ then\ it\ removes\ the\ object\ of\ type\ Mathlete\ and\n\ \ \ \ \ \ returns\ a\ String\ to\ the\ "GUI"\ which\ displays\ the\ current\ roster\ of\ \n\ \ \ \ \ \ Mathletes,\ otherwise\ it\ returns\ a\ String\ warning\ the\ user\ that\ the\ name\ is\ invalid.\n
+comment3.params=name\ points
+comment3.target=java.lang.String\ addPoints(java.lang.String,\ int)
+comment3.text=\n\ \ \ \ \ \ Receives\ the\ name\ and\ points\ as\ parameters\ from\ the\ "GUI".\n\ \ \ \ \ \ Checks\ the\ instance\ array\ of\ Mathlete\ objects\ to\ see\ if\ the\ name\n\ \ \ \ \ \ is\ stored.\ If\ it\ is,\ then\ it\ adds\ the\ points\ to\ the\ appropriate\ \n\ \ \ \ \ \ object\ of\ type\ Mathlete\ and\ returns\ an\ updated\ String\ to\ the\ "GUI"\ \n\ \ \ \ \ \ which\ displays\ the\ current\ roster\ of\ Mathletes,\ \n\ \ \ \ \ \ otherwise\ it\ returns\ a\ String\ warning\ the\ user\ that\ the\ name\ is\ invalid.\n
+comment4.params=
+comment4.target=java.lang.String\ chooseTeam()
+comment4.text=\n\ A\ team\ of\ mathletes\ consists\ of\ 5\ students\ at\ least\ one\ of\ which\n\ is\ a\ freshman\ or\ sophomore.\ \n\ This\ method\ accepts\ no\ parameters\ from\ the\ "GUI".\n\ It\ selects\ a\ random\ team\ of\ 5\ mathletes\ containing\ at\ least\ \n\ one\ sophomore\ or\ freshman\ if\ possible.\ Return\ a\ String\n\ that\ displays\ the\ team\ or\ a\ String\ stating\ why\ it\ is\ not\ possible.\n\ (not\ enough\ mathletes,\ or\ no\ frosh/sophs\ available)\n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+numComments=6
